@@ -7,7 +7,7 @@ this minigame is free to use for anyone who wants to spice up their homepage a b
 
 i've tried commenting the code so that this is easy for beginners to copypaste and replace with their own assets or whatever, but i make no guarantees. trying to debug my shit code is going to be a hell of a learning opportunity though! also FYI the only reason i'm uploading is to github is because i'm trying to share this code with my friends and codepen bites so fucking hard like?? all the professional developers on this site scare me please spare me i'm just a hobbyist
 
-<strong><em>DISCLAIMER: THIS CODE IS REALLY, REALLY BAD<em></strong>
+<strong><em>DISCLAIMER: THIS CODE IS REALLY, REALLY BAD</em></strong>
 
 &nbsp;
 
