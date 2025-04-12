@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>library</title>
+  <meta name="viewport" content="width=1024">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container p-4">
+
+        <div class="gamescreen m-4" id="bg">
+                    
+
+                        <div class="row">
+                            <div class="col-6 p-0">
+                                <div id="weirdo"><img src="img/librarian.png" id="librarian" onclick="poke()"></div>
+                            </div>
+                            <div class="col-5 p-0">
+                                
+                                <div id="librarianintro">
+                                    <div id="textbox">
+                                        <p>"Good evening, friend. Thank you for visiting the library again, how are you? If it's not too much trouble for you, I'm a bit swamped with sorting all these returns... Care to help me?"</p>
+                                        
+                                    </div>
+                                    
+                                    <div class="button" onclick="startSorting(),resetSprite()"> Help sort books</div>
+                                   <div class="button" onclick="talk(),resetSprite()"> Talk</div>
+                                </div>
+                               <div id="sortingdone">
+                                <div id="postsorting">
+                                    <p>if you see this i broke something. regards, catskulls</p>
+                                    
+                                    
+                                </div>
+                                <a href="index.html"><div class="button" id="hutbutton">Back to front desk</div></a>
+                            </div> 
+    
+                                </div>
+                                
+                                
+                                
+                            </div>
+                        
+                        <div class="game" id="sortingGame">
+                            <div class="bookshelves">
+
+                                <div class="shelf">
+                                    <img id="targetImage" name="romance" src="./img/romance bookshelf.png">
+                                    <p>Romance</p>
+                                </div>
+                                
+                                <div class="shelf">
+                                    <img id="targetImage" name="magic" src="./img/magic bookshelf.png">
+                                    <p>Mystery</p>
+                                </div>
+
+                                <div class="shelf">
+                                    <img id="targetImage" name="nonfiction" src="./img/nonfiction.png">
+                                    <p>Nonfiction</p>
+                                </div>
+                               
+                                <div class="shelf">
+                                    <img id="targetImage" name="fantasy" src="img/fantasy bookshelf.png">
+                                    <p>Fantasy</p>
+                                </div>
+
+                                <div class="shelf">
+                                    <img id="targetImage" name="action" src="img/action bookshelf.png">
+                                    <p>Action</p>
+                                </div> 
+                                
+                                <div class="shelf">
+                                    <img id="targetImage" name="scifi" src="img/scifi bookshelf.png">
+                                    <p>Sci-fi</p>
+                                </div>
+                            </div>
+            
+                            <div>
+                                <h3 style="margin-left:40px;"></h3>
+                            
+                            </div>
+                            <div class="book" >
+                                <img id="draggable" src="img/romance book.png" >
+                            </div>
+                            <div id="bookcart">
+                                <img src="img/book cart.png">
+                            </div>
+                           
+                           <div class="button" style="position:absolute;bottom:70px;left:30px;" onclick="endSorting()">End sorting</div>
+            
+                        </div>
+               
+                 
+
+                       
+                    </div>
+                
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+    
+    
+   
+</body>
+</html>

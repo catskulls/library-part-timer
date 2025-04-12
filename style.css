@@ -1,0 +1,139 @@
+body {
+    background-color: #3d2756;
+    font-size: 1.25em;
+    color:#cbdff0; 
+    line-height: 1.5em; 
+    font-family: 'pixeloperator', sans-serif;
+
+    }
+    a{
+    color:#3d2756;
+    text-decoration: none;
+    }
+
+  @font-face {
+    font-family: "wayfarer";
+    src: url('./img/wayfarers-toy-box.ttf');
+  }
+  @font-face {
+      font-family: "pixeloperator";
+      src: url('./img/PixelOperator.ttf');
+  }
+
+
+.container {
+    width:70%;
+    height:520px;
+    overflow:hidden;
+    margin:auto;
+  }
+
+.gamescreen {
+    padding:40px;
+    background-color:rgb(120, 97, 150);
+    color:darkslateblue;
+    width:100%;
+    height:520px;
+  }
+
+  #textbox {
+    color:#3d2756;
+    background-color: antiquewhite;
+    padding:30px;
+    border-radius:10px;
+    width:100%;
+    height:280px;
+  }
+
+  
+  #postsorting {
+    color:#3d2756;
+    background-color: antiquewhite;
+    padding:30px;
+    border-radius:10px;
+    width:100%;
+    height:280px;
+  }
+  
+  #sortingdone{
+    display:none;
+  }
+  
+  .game{
+    position:absolute;
+     height:490px;
+     color:#e3dfe8;
+     position: relative;
+   
+   }
+   
+   .bookshelves{
+     text-align:center;
+     margin-left: 5%;
+     justify-content: center;
+     
+   }
+   
+   .book{
+     z-index:100;
+    position:absolute;
+    right:5px;
+    cursor: grab;
+   
+   }
+   
+   #bookcart {
+     position:absolute;
+     right:-40px;
+     bottom:60px;
+     z-index:1;
+     
+     pointer-events: none;
+   
+   }
+   
+   #bookcart img {
+     width:250px;
+   }
+   .book img{
+     padding: 5px;
+     width:120px;
+    z-index:100;
+   }
+   
+   .shelf {
+     float:left;
+   }
+   
+   .bookshelves img{
+     padding: 4px;
+     width:110px;
+     
+   
+   }
+   
+   .button {
+    font-family: "pixeloperator";
+      background-color:  rgb(203, 181, 207);
+      text-align:center;
+      color:#5e3f81;
+      margin: 10px 0px;
+      border:#5e3f81 1px solid;
+      border-radius: 10px;
+      padding:10px;
+  }
+  
+  .button:hover{
+    background-color:  rgb(179, 151, 184);
+    text-align:center;
+    color:#5e3f81;
+    margin: 10px 0px;
+    border-radius: 10px;
+    padding:10px;
+  }
+  
+ 
+  #librarian {
+    width:100%;
+    margin:auto;
+  }
